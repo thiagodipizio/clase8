@@ -1,0 +1,27 @@
+.my-wrapped-carousel {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.containter-cuadraditos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+@media (min-width: 768px) {
+.black, .violet {
+    display: none;
+}    
+}
